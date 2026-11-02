@@ -303,7 +303,7 @@ function describir(cambios){
 function renderEncabezado(){
   $("#titulo").textContent = CONFIG.titulo;
   document.title = CONFIG.titulo;
-  $("#subtitulo").innerHTML = `Objetivo de la reunión: pasar de <b>${fmt(INICIAL)} hs</b> a <b>${fmt(CONFIG.meta)} hs</b> decidiendo juntos qué historias se postergan o se reducen.`;
+  $("#subtitulo").innerHTML = `Objetivo: pasar de <b>${fmt(INICIAL)} hs</b> a <b>${fmt(CONFIG.meta)} hs</b> decidiendo junto al usuario qué historias se postergan o se reducen.`;
   $("#kInicial").textContent = fmt(INICIAL);
   $("#inMeta").value = CONFIG.meta;
   $("#lgMeta").textContent = `Meta: ${fmt(CONFIG.meta)} hs`;
